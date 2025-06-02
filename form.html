@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<head>
+<title>Form</title>
+<h1>General Form</h1>
+</head>
+<hr>
+<body>
+<form>
+<div>
+<label for="fname">First Name: </label>
+<br><input type="text" id="fname"  name="fname" placeholder="e.g.John" required>
+</div><br>
+<div>
+<label for="lname">Last Name: </label>
+<br><input type="text" id= "lname" name="lname" placeholder="e.g.Will" required>
+</div>
+<br>
+<div>
+<label for="contact">Phone Number:</label>
+<br>
+<input type="tel" name="contact" id="contact" maxlength="10" placeholder="9810098456">
+</div>
+<br>
+<div>
+<div>
+<label for="email">E-mail:</label><br>
+<input type="email" name="email" id="email" placeholder="e.g.johnwill234@gmail.com" required>
+
+</div><br>
+<div>
+<label for="password">Password:</label><br>
+<input type="password" name="password" id="password" maxlength="12">
+</div><br>
+<div>
+<label for="DOB"> Date Of Birth: </label>
+<br>
+<input type="date" name="DOB" id="DOB">
+</div><br>
+<div>
+<label for="sibling">Number of siblings:</label>
+<input type="number" name="sibling" id="sibling" min="0" max="5" value="0">
+</div><br>
+<div>
+<label for="status">Relationship Status:</label>
+<label for="status">Single</label>
+<input type="radio" name="status" id="status" value="Single">
+<label for="status">Married</label>
+<input type="radio" name="status" id="status" value="Married">
+<label for="status">Divorced</label>
+<input type="radio" name="status" id="status" value="Divorced">
+</div><br>
+<div>
+<label for="gender"> Gender:</label>
+<select name="gender" id="gender">
+<option value="female">Male</option>
+<option value="male">Female</option>
+<option value="other">Other</option>
+<option value="prefer not to tell">Prefer Not to tell</option>
+
+</select>
+</div><br>
+<div>
+<label for="media">Social media you use:</label><br>
+<input type="checkbox" name="media" id="media" value="Facebook">
+<label for="media">Facebook</label><br>
+<input type="checkbox" name="media" id="media" value="Instagram">
+<label for="media">Instagram</label><br>
+<input type="checkbox" name="media" id="media" value="Snapchat">
+<label for="media">Snapchat</label><br>
+<input type="checkbox" name="media" id="media" value="LinkedIn">
+<label for="media">LinkedIn</label><br>
+</div>
+<input type="reset">
+<input type="submit">
+</div>
+<br>
+</form> 
+</body>
+</HTML>
